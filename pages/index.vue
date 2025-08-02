@@ -7,8 +7,10 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="max-w-5xl mx-auto p-6">
-
+  <div>
+    <!-- Hero Section -->
+    <Hero />
+    
   </div>
 </template>
 

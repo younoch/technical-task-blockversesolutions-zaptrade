@@ -8,7 +8,7 @@ import Footer from '../components/base/Footer.vue'
     <Header />
 
     <!-- Page Content -->
-    <main class="flex-grow container mx-auto p-6">
+    <main class="          ">
       <slot />
     </main>
     <Footer />
