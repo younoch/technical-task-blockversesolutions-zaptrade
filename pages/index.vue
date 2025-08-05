@@ -8,10 +8,10 @@ definePageMeta({
 
 <template>
   <div>
-    <!-- Hero Section -->
-    <Hero />
-    <TradingToken />
-    
+     <ClientOnly>
+      <Hero />
+      <TradingToken />
+     </ClientOnly>
   </div>
 </template>
 
