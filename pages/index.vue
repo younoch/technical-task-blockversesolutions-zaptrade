@@ -1,20 +1,16 @@
 <script setup lang="ts">
-
 definePageMeta({
-  layout: 'default',
-})
-
+  layout: "default",
+});
 </script>
 
 <template>
   <div>
-     <ClientOnly>
+    <ClientOnly>
       <Hero />
       <TradingToken />
-     </ClientOnly>
+    </ClientOnly>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
