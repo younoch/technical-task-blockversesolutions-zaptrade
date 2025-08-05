@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@pinia/nuxt', 'nuxt-icon'],
+  modules: ['@pinia/nuxt', '@nuxt/icon'],
   ssr: true,
   css: ['@/assets/css/tailwind.css'],
   postcss: {
